@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arrays</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Arrays & Push Pop</h1></header>
+
+<nav><a href="index.html">Home</a></nav>
+
+<div class="container">
+<div class="card">
+<button onclick="arrays()">Run Example</button>
+<div class="output" id="out"></div>
+</div>
+</div>
+<h3>Create Array</h3>
+<pre>
+let fruits=["Apple","Mango","Orange"];
+document.write(fruits[0]);
+</pre>
+
+<h3>Push & Pop</h3>
+<pre>
+let arr=["HTML","CSS"];
+arr.push("JS");
+arr.pop();
+document.write(arr);
+</pre>
+
+<h3>Loop Array</h3>
+<pre>
+let nums=[1,2,3];
+for(let i=0;i<nums.length;i++){
+ document.write(nums[i]);
+}
+</pre>
+<script src="script.js"></script>
+</body>
+</html>

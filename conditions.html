@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>If Else</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>If Else / Else If</h1></header>
+
+<nav><a href="index.html">Home</a></nav>
+
+<div class="container">
+<div class="card">
+<button onclick="condition()">Run Example</button>
+<div class="output" id="out"></div>
+</div>
+</div>
+<h3>If Example</h3>
+<pre>
+let age=18;
+if(age>=18){
+ document.write("Eligible");
+}
+</pre>
+
+<h3>Else If</h3>
+<pre>
+let marks=85;
+if(marks>90){document.write("A");}
+else if(marks>60){document.write("B");}
+else{document.write("C");}
+</pre>
+
+<h3>Ternary</h3>
+<pre>
+let num=5;
+let result=(num%2==0)?"Even":"Odd";
+document.write(result);
+</pre>
+
+<script src="script.js"></script>
+</body>
+</html>

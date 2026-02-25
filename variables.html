@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Variables</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Variables in JavaScript</h1></header>
+
+<nav>
+<a href="index.html">Home</a>
+</nav>
+
+<div class="container">
+<div class="card">
+<p>JavaScript uses var, let, const to store values.</p>
+<button onclick="variables()">Run Example</button>
+<div class="output" id="out"></div>
+</div>
+</div>
+
+<script src="script.js"></script>
+<h3>Example 1: var, let, const</h3>
+<pre>
+var x = 10;
+let y = 20;
+const z = 30;
+
+document.write(x + " " + y + " " + z);
+</pre>
+
+<h3>Example 2: Reassign</h3>
+<pre>
+let name = "Poornima";
+name = "Student";
+document.write(name);
+</pre>
+
+<h3>Example 3: Scope</h3>
+<pre>
+{
+ let a = 5;
+}
+document.write(a); // error (block scope)
+</pre>
+</body>
+</html>

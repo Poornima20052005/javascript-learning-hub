@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Switch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Switch Statement</h1></header>
+
+<nav><a href="index.html">Home</a></nav>
+
+<div class="container">
+<div class="card">
+<button onclick="switchExample()">Run Example</button>
+<div class="output" id="out"></div>
+</div>
+</div>
+<h3>Switch Numbers</h3>
+<pre>
+let day=1;
+switch(day){
+ case 1: document.write("Monday"); break;
+ case 2: document.write("Tuesday"); break;
+ default: document.write("Other");
+}
+</pre>
+
+<h3>Switch Strings</h3>
+<pre>
+let role="admin";
+switch(role){
+ case "admin": document.write("Full Access"); break;
+ case "user": document.write("Limited Access"); break;
+ default: document.write("Guest");
+}
+</pre>
+<script src="script.js"></script>
+</body>
+</html>
